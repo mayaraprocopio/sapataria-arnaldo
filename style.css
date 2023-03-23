@@ -1,3 +1,33 @@
 body{
-    color: brown;
+    background-color: #e4c1a4;
 }
+
+.titulo-pagina{
+    color: rgb(85, 5, 15);
+    font-size: 36pt;
+    font-weight: bolder;
+    font-style: italic;
+    text-align: center;
+    line-height: 3.5;
+}
+.corpo-artigo{
+    color: rgb(44, 21, 13);
+    font-style: oblique;
+    font-size: 14pt;
+    text-align: justify;
+    line-height: 2.5;
+}
+.endereco{
+    color: rgb(167, 25, 25);
+   text-align: center;
+   font-style: italic;
+
+}
+.imagem-produto{
+    width: 100;
+    height: auto;
+    padding: 50px;
+
+
+}
+
