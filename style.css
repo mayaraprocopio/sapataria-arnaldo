@@ -4,11 +4,20 @@ body{
 
 .titulo-pagina{
     color: rgb(85, 5, 15);
-    font-size: 36pt;
+    font-size: 38pt;
     font-weight: bolder;
     font-style: italic;
     text-align: center;
-    line-height: 3.5;
+    line-height: 2.5;
+}
+.subtitulo-pagina{
+    color: rgb(85, 5, 15);
+    font-size: 34pt;
+    font-weight: bolder;
+    font-style: normal;
+    text-align: justify;
+    line-height: 2.5;
+
 }
 .corpo-artigo{
     color: rgb(44, 21, 13);
@@ -35,3 +44,39 @@ body{
     object-position: 0 75%;
 }
 
+.produtos-sapatos img{
+    width: 20%;
+    height: 300px;
+   
+}
+
+.produtos-bolsas img{
+    width: 20%;
+    height: 300px;
+}
+
+.produtos-sapatos h1{
+color:rgb(48, 23, 5);
+text-align: justify;
+font-size: 28pt;
+line-height: 1.5;
+background-color: rgb(155, 51, 13);
+font-weight: bolder;
+
+}
+.produtos-bolsas h1{
+color: rgb(48, 23, 5);
+text-align: justify;
+font-size: 28pt;
+line-height: 1.5;
+background-color: rgb(155, 51, 13);
+font-weight: bolder;
+
+}
+.menu-navegacao ul{
+    display: flex;
+    justify-content: start;
+}
+.menu-navegacao li {
+padding: 20px;
+}
