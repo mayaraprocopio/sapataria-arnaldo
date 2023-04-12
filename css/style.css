@@ -1,5 +1,5 @@
 body{
-    background-color: #e4c1a4;
+    background-color: #F1DEC9;
 }
 
 .titulo-pagina{
@@ -44,10 +44,11 @@ body{
     object-position: 0 75%;
 }
 
+/*produtos*/
 .produtos-sapatos img{
     width: 20%;
     height: 300px;
-   
+  
 }
 
 .produtos-bolsas img{
@@ -60,7 +61,7 @@ color:rgb(48, 23, 5);
 text-align: justify;
 font-size: 28pt;
 line-height: 1.5;
-background-color: rgb(155, 51, 13);
+background-color: #C8B6A6;
 font-weight: bolder;
 
 }
@@ -69,14 +70,22 @@ color: rgb(48, 23, 5);
 text-align: justify;
 font-size: 28pt;
 line-height: 1.5;
-background-color: rgb(155, 51, 13);
+background-color: #C8B6A6;
 font-weight: bolder;
 
 }
+
+
+/*menu de navegação*/
 .menu-navegacao ul{
     display: flex;
     justify-content: start;
 }
 .menu-navegacao li {
 padding: 20px;
+}
+
+/*rodapé*/
+.rodape{
+    background-color: #8D7B68;
 }
