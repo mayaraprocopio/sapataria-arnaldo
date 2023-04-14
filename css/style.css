@@ -1,8 +1,15 @@
-body{
-    background-color: #F1DEC9;
+ 
+:root{
+    --color-principal: #A3816A;
+    --cor-text:#0A065D;
 }
 
-.titulo-pagina{
+
+body{
+    background-color: #D2C8C8;
+}
+
+.title-page{
     color: rgb(85, 5, 15);
     font-size: 38pt;
     font-weight: bolder;
@@ -10,29 +17,30 @@ body{
     text-align: center;
     line-height: 2.5;
 }
-.subtitulo-pagina{
+.subtitle-page{
     color: rgb(85, 5, 15);
     font-size: 34pt;
     font-weight: bolder;
     font-style: normal;
     text-align: justify;
     line-height: 2.5;
+    
 
 }
-.corpo-artigo{
-    color: rgb(44, 21, 13);
+.body-article{
+    color: var(--cor-text);
     font-style: oblique;
     font-size: 14pt;
     text-align: justify;
     line-height: 2.5;
 }
-.endereco{
-    color: rgb(167, 25, 25);
+.address{
+   color:var(--cor-text);
    text-align: center;
    font-style: italic;
 
 }
-.imagem-produto{
+.image-product{
     width: 100;
     height: auto;
     padding: 50px;
@@ -45,47 +53,48 @@ body{
 }
 
 /*produtos*/
-.produtos-sapatos img{
+.product-shoes img{
     width: 20%;
     height: 300px;
   
 }
 
-.produtos-bolsas img{
+.product-bags img{
     width: 20%;
     height: 300px;
 }
 
-.produtos-sapatos h1{
-color:rgb(48, 23, 5);
+.product-shoes h1{
+
 text-align: justify;
 font-size: 28pt;
 line-height: 1.5;
-background-color: #C8B6A6;
+color:var(--color-principal);
 font-weight: bolder;
 
+
 }
-.produtos-bolsas h1{
-color: rgb(48, 23, 5);
+.product-bags h1{
+
 text-align: justify;
 font-size: 28pt;
 line-height: 1.5;
-background-color: #C8B6A6;
+color:var(--color-principal);
 font-weight: bolder;
 
 }
 
 
 /*menu de navegação*/
-.menu-navegacao ul{
+.navber ul{
     display: flex;
     justify-content: start;
 }
-.menu-navegacao li {
+.navber li {
 padding: 20px;
 }
 
 /*rodapé*/
-.rodape{
-    background-color: #8D7B68;
+.footer{
+   color: var(--cor-text);
 }
