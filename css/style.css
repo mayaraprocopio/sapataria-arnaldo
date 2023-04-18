@@ -1,4 +1,6 @@
- 
+
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Condensed:ital,wght@0,300;0,400;0,600;0,700;1,700&display=swap');
+
 :root{
     --color-principal: #A3816A;
     --cor-text:#0A065D;
@@ -7,9 +9,10 @@
 
 body{
     background-color: #D2C8C8;
+    font-family: Condensed, Georgia, 'Times New Roman', Times, serif; 
 }
 
-.title-page{
+.page-title{
     color: rgb(85, 5, 15);
     font-size: 38pt;
     font-weight: bolder;
@@ -17,7 +20,7 @@ body{
     text-align: center;
     line-height: 2.5;
 }
-.subtitle-page{
+.page-subtitle{
     color: rgb(85, 5, 15);
     font-size: 34pt;
     font-weight: bolder;
@@ -71,7 +74,8 @@ font-size: 28pt;
 line-height: 1.5;
 color:var(--color-principal);
 font-weight: bolder;
-
+border: 3px #A3816A;
+background-color: #976e53;
 
 }
 .product-bags h1{
@@ -81,20 +85,46 @@ font-size: 28pt;
 line-height: 1.5;
 color:var(--color-principal);
 font-weight: bolder;
+border: 3px #A3816A;
+border: 3px #A3816A;
+background-color: #976e53;
 
 }
 
 
 /*menu de navegação*/
-.navber ul{
+.navbar ul{
     display: flex;
     justify-content: start;
 }
-.navber li {
+.navbar li {
 padding: 20px;
+
+}
+.navbar a {
+    text-decoration: none;
+}
+
+
+/*pagina de contato*/
+
+.conteiner{
+    display: flex;
+    justify-content: space-between;
+}
+
+.conteiner > aside >img{
+    width: 200px;
+}
+.conteiner h3{
+    font-size: 14pt;
+    font-weight: 600;
+
 }
 
 /*rodapé*/
 .footer{
-   color: var(--cor-text);
-}
+    color: var(--cor-text);
+    border: 3px #A3816A;
+    background-color: #976e53;
+ }
