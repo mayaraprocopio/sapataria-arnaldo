@@ -30,25 +30,37 @@
 
 <div class="conteiner">
     <main>
-        <form action="" method="">
+        
+        <form class= "contact-form"action="" method="">
             <label for="name"> Nome:</label>
             <input type="text" id="name" autofocus required>
 
             <label for="email">E-mail</label>
             <input type="email" id="email" required>
-
+            
+            
             <label for="subject">Assunto</label>
-            <input type="text" id="subject" required>
-
+           <!--<input type="text" id="subject" required>-->
+            
+            <select id="subject">
+                <option value="prazo">Prazo de Entrega</option>
+                <option value="orcamento">Orçamento</option>
+                <option value="contato">Contato</option>
+                <option value="outros">Outros</option>
+            </select> 
+            
+             
             <label for="message">Mensagem</label>
-            <textarea id="message" cols="30" rows="5"></textarea> <br>
-
+            <textarea id="message" cols="30" rows="5"></textarea>
+            
+        
             <label for="phone">Telefone</label>
             <input type="tel" id="phone">
-
-            <input type="submit">
+        
+            <button>Enviar</button>
 
         </form>
+        
     </main>
     
 
