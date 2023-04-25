@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -11,73 +12,68 @@
     <link rel="stylesheet" href="./css/style.css">
 
 </head>
+
 <body>
     <header>
-    <nav class="navbar">
-        <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="sobre.html">Sobre Nós</a></li>
-            <li><a href="catalogo.html">Catálogo</a></li>
-            <li><a href="contato.html">Contato</a></li>
-          
-        </ul>
-    </nav>
+        <nav class="navbar">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="sobre.html">Sobre Nós</a></li>
+                <li><a href="catalogo.html">Catálogo</a></li>
+                <li><a href="contato.html">Contato</a></li>
 
-    <h1 class="page-title"> Contato</h1>
-    <h2 class="page-subtitle"> Fale Conosco!</h2>
+            </ul>
+        </nav>
+
+        <h1 class="page-title"> Contato</h1>
+        <h2 class="page-subtitle"> Fale Conosco!</h2>
 
     </header>
 
-<div class="conteiner">
-    <main>
-        
-        <form class= "contact-form"action="" method="">
-            <label for="name"> Nome:</label>
-            <input type="text" id="name" autofocus required>
+    <div class="conteiner">
+        <main>
 
-            <label for="email">E-mail</label>
-            <input type="email" id="email" required>
-            
-            
-            <label for="subject">Assunto</label>
-           <!--<input type="text" id="subject" required>-->
-            
-            <select id="subject">
-                <option value="prazo">Prazo de Entrega</option>
-                <option value="orcamento">Orçamento</option>
-                <option value="contato">Contato</option>
-                <option value="outros">Outros</option>
-            </select> 
-            
-             
-            <label for="message">Mensagem</label>
-            <textarea id="message" cols="30" rows="5"></textarea>
-            
-        
-            <label for="phone">Telefone</label>
-            <input type="tel" id="phone">
-        
-            <button>Enviar</button>
+            <form class="contact-form" action="" method="" onsubmit="alert('Formulário enviado')">
+                <label for="name"> Nome:</label>
+                <input type="text" id="name" autofocus required>
 
-        </form>
-        
-    </main>
-    
-
-    <aside>
-        
-        <img src="img/arnaldo.jpg" alt="Foto do local">
-
-        <h3> Horário de Funcionamento</h3>
-
-        <p> Segunda a Sexta</p>
-        <p> das 08h às 17h</p>
-        <p> Sábados</p>
-        <p> das 09h às 12h</p>
+                <label for="email">E-mail</label>
+                <input type="email" id="email" required>
 
 
-    </aside>
-</div>
+                <label for="subject">Assunto</label>
+                <!--<input type="text" id="subject" required>-->
+
+                <select id="subject">
+                    <option value="prazo">Prazo de Entrega</option>
+                    <option value="orcamento">Orçamento</option>
+                    <option value="contato">Contato</option>
+                    <option value="outros">Outros</option>
+                </select>
+
+                <label for="message">Mensagem</label>
+                <textarea id="message" cols="30" rows="5"></textarea>
+
+                <label for="phone">Telefone</label>
+                <input type="tel" id="phone">
+
+                <button>Enviar</button>
+
+            </form>
+        </main>
+
+        <aside>
+
+            <img src="img/arnaldo.jpg" alt="Foto do local">
+
+            <h3> Horário de Funcionamento</h3>
+            <p> Segunda a Sexta</p>
+            <p> das 08h às 17h</p>
+            <p> Sábados</p>
+            <p> das 09h às 12h</p>
+
+        </aside>
+    </div>
 
     <footer class="footer">
         <address class="address">
@@ -86,10 +82,8 @@
             <p>São Paulo-SP</p>
             <p> (11)3371-1279</p>
         </address>
-      </footer>
-    
+    </footer>
+
 </body>
-
-
 
 </html>

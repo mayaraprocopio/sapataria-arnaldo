@@ -44,9 +44,10 @@ body{
 
 }
 .image-product{
-    width: 100;
-    height: auto;
-    padding: 50px;
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 650px;
 }
 .banner-header{
     width: 100%;
