@@ -1,18 +1,16 @@
-
 @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Condensed:ital,wght@0,300;0,400;0,600;0,700;1,700&display=swap');
 
-:root{
+:root {
     --color-principal: #A3816A;
-    --cor-text:#0A065D;
+    --cor-text: #0A065D;
 }
 
-
-body{
+body {
     background-color: #D2C8C8;
-    font-family: Condensed, Georgia, 'Times New Roman', Times, serif; 
+    font-family: Condensed, Georgia, 'Times New Roman', Times, serif;
 }
 
-.page-title{
+.page-title {
     color: var(--cor-text);
     font-size: 38pt;
     font-weight: bolder;
@@ -20,36 +18,38 @@ body{
     text-align: center;
     line-height: 2.5;
 }
-.page-subtitle{
+
+.page-subtitle {
     color: var(--cor-text);
     font-size: 34pt;
     font-weight: bolder;
     font-style: normal;
     text-align: justify;
     line-height: 2.5;
-    
-
 }
-.body-article{
+
+.body-article {
     color: var(--cor-text);
     font-style: oblique;
     font-size: 14pt;
     text-align: justify;
     line-height: 2.5;
 }
-.address{
-   color:var(--cor-text);
-   text-align: center;
-   font-style: italic;
 
+.address {
+    color: var(--cor-text);
+    text-align: center;
+    font-style: italic;
 }
-.image-product{
-    display:block;
+
+.image-product {
+    display: block;
     margin-left: auto;
     margin-right: auto;
     width: 650px;
 }
-.banner-header{
+
+.banner-header {
     width: 100%;
     height: 350px;
     object-fit: cover;
@@ -57,99 +57,92 @@ body{
 }
 
 /*produtos*/
-.product-shoes img{
-    width: 20%;
-    height: 300px;
-   
-}
-
-.product-bags img{
+.product-shoes img {
     width: 20%;
     height: 300px;
 }
 
-.product-shoes h1{
-
-text-align: justify;
-font-size: 28pt;
-line-height: 1.5;
-color:var(--cor-text);
-font-weight: bolder;
-border: 3px var(--color-principal);
-background-color: var(--color-principal);
-
-}
-.product-bags h1{
-
-text-align: justify;
-font-size: 28pt;
-line-height: 1.5;
-color:var(--cor-text);
-font-weight: bolder;
-border: 3px var(--color-principal);
-background-color: var(--color-principal);
-
+.product-bags img {
+    width: 20%;
+    height: 300px;
 }
 
+.product-shoes h1 {
+    text-align: justify;
+    font-size: 28pt;
+    line-height: 1.5;
+    color: var(--cor-text);
+    font-weight: bolder;
+    border: 3px var(--color-principal);
+    background-color: var(--color-principal);
+}
+
+.product-bags h1 {
+    text-align: justify;
+    font-size: 28pt;
+    line-height: 1.5;
+    color: var(--cor-text);
+    font-weight: bolder;
+    border: 3px var(--color-principal);
+    background-color: var(--color-principal);
+}
 
 /*menu de navegação*/
-.navbar ul{
+.navbar ul {
     display: flex;
     justify-content: start;
     border: 3px var(--color-principal);
     background-color: var(--color-principal);
 }
-.navbar li {
-padding: 20px;
 
+.navbar li {
+    padding: 20px;
 }
+
 .navbar a {
     text-decoration: none;
 }
 
-
 /*pagina de contato*/
-
-.conteiner{
+.conteiner {
     display: flex;
     justify-content: space-between;
 }
 
-.conteiner > aside >img{
+.conteiner>aside>img {
     width: 200px;
 }
-.conteiner h3{
+
+.conteiner h3 {
     font-size: 14pt;
     font-weight: 600;
-
 }
 
 /*Formulario*/
-
 label,
-button{
+button {
     display: block;
 }
 
-.contact-form{
+.contact-form {
     width: 60%;
     margin: auto;
 }
-.contact-form input,
-.contact-form textarea{
 
+.contact-form input,
+.contact-form textarea {
     width: 100%;
-   /*box-sizing: border-box;*/
-   
+    /*box-sizing: border-box;*/
 }
+
 .contact-form select,
 .contact-form button {
     width: calc(100% + 8px);
 }
 
 /*rodapé*/
-.footer{
+.footer {
     color: var(--cor-text);
     border: 3px var(--color-principal);
     background-color: var(--color-principal);
- }
+}
