@@ -1,9 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Condensed:ital,wght@0,300;0,400;0,600;0,700;1,700&display=swap');
 
+html {
+    background: url(https://cdn.shopify.com/s/files/1/0305/4075/9177/products/papel-de-parede-adesivo-degrade-marrom-branco-n07166-467473.jpg?v=1643337910) no-repeat center fixed;
+    background-size: cover;
+
+}
 :root {
     --color-principal: #A3816A;
     --cor-text: #0A065D;
 }
+
+
 
 body {
     background-color: #D2C8C8;
@@ -88,15 +95,32 @@ body {
 }
 
 /*menu de navegação*/
+
+a:link{
+    color: blueviolet;
+}
+a:visited{
+    color: #ad0505;
+    }
+a:hover{
+    color: rgb(33, 3, 116);
+    font-size: 28pt;
+    }
+
+    
 .navbar ul {
     display: flex;
     justify-content: start;
     border: 3px var(--color-principal);
     background-color: var(--color-principal);
+    position: fixed;
+    top: 0;
+    width: 100%;
 }
 
 .navbar li {
     padding: 20px;
+    border-right: 1px solid #bbb;
 }
 
 .navbar a {
