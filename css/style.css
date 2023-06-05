@@ -170,3 +170,30 @@ button {
     border: 3px var(--color-principal);
     background-color: var(--color-principal);
 }
+
+@media screen and (max-width: 400px) {
+    .main{
+        width: 100%;
+    }
+    .page-subtitle{
+        white-space:nowrap;
+        font-size: 20pt;
+    }
+    .page-title{
+        white-space:nowrap;
+        font-size: 24pt; 
+    }
+
+    .product-bags{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+    }
+    .product-shoes{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+}
